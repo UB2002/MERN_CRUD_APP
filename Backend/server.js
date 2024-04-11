@@ -4,7 +4,7 @@ const cors = require('cors');
 const Employee = require('./EmployeModel');
 
 const app = express();
-const uri = 'mongodb+srv://udaybhaskarmathangi:<pasword>.carusdb.mongodb.net/Node-API?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://udaybhaskarmathangi:mX0W7b1UMwwUP6Ph@ub2002.carusdb.mongodb.net/Node-API?retryWrites=true&w=majority';
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
