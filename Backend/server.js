@@ -77,7 +77,7 @@ mongoose.set("strictQuery", false);
 mongoose.connect(uri)
 .then(() => {
         console.log('Connected to MongoDB');
-        app.listen(3000, () => {
+        app.listen(3001, () => {
             console.log(`Node API app is running on port 3000`);
         });
     })
