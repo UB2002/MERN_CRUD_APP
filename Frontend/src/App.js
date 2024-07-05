@@ -65,6 +65,11 @@ const App = () => {
 
 const Home = () => {
   return <h2>Home Page</h2>;
+
+  <p>
+    This is a simple MERN application which use REACT_JS, MONGODB, NODE_JS, EXPRESS_JS</br>
+    and performs crud(create, read, update, delete) operations with good UI design 
+  </p>
 };
 
 export default App;
