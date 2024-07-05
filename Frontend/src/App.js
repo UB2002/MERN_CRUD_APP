@@ -63,6 +63,7 @@ const App = () => {
   );
 };
 
+/*
 const Home = () => {
   return <h2>Home Page</h2>;
 
@@ -71,5 +72,16 @@ const Home = () => {
     and performs crud(create, read, update, delete) operations with good UI design 
   </p>
 };
-
+*/
+const Home = () => {
+  return (
+    <div>
+      <h2>Home Page</h2>
+      <p>
+        This is a simple MERN application which uses REACT_JS, MONGODB, NODE_JS, EXPRESS_JS.
+        It performs CRUD (Create, Read, Update, Delete) operations with a good UI design.
+      </p>
+    </div>
+  );
+};
 export default App;
