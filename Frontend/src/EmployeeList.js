@@ -19,7 +19,7 @@ const EmployeeList = () => {
 
   const fetchEmployees = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/get');
+      const response = await axios.get('https://nodejs-crud-pdnl.onrender.com/get');
       setEmployees(response.data); // Update state with fetched employees
     } catch (error) {
       console.error('Error fetching employees:', error);
@@ -34,7 +34,7 @@ const EmployeeList = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/post', newEmployee);
+      await axios.post('https://nodejs-crud-pdnl.onrender.com/post', newEmployee);
       // After successful POST request, fetch updated employee list
       fetchEmployees();
       // Reset form fields

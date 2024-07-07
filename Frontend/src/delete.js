@@ -12,7 +12,7 @@ const DeleteEmployeeById = () => {
     }
 
     try {
-      await axios.delete(`http://localhost:3000/delete/${employeeId}`);
+      await axios.delete(`https://nodejs-crud-pdnl.onrender.com/delete/${employeeId}`);
       alert('Employee data deleted successfully');
     } catch (error) {
       console.error('Error deleting employee:', error);
