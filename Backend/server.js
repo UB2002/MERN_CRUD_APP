@@ -8,7 +8,7 @@ const uri = 'mongodb+srv://udaybhaskarmathangi:mX0W7b1UMwwUP6Ph@ub2002.carusdb.m
 
 // Enable CORS with specific settings
 app.use(cors({
-  origin: 'https://mern-crud-3gnkzv8y1-ub2002s-projects.vercel.app', // Frontend URL
+  origin: 'https://mern-crud-app-opal.vercel.app/', // Frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
