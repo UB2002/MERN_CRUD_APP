@@ -8,7 +8,7 @@ const uri = 'mongodb+srv://udaybhaskarmathangi:mX0W7b1UMwwUP6Ph@ub2002.carusdb.m
 
 // Enable CORS with specific settings
 app.use(cors({
-  origin: 'https://mern-crud-1gszcwfcm-ub2002s-projects.vercel.app', // Frontend URL
+  origin: 'https://mern-crud-3gnkzv8y1-ub2002s-projects.vercel.app', // Frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
@@ -86,8 +86,8 @@ mongoose.set("strictQuery", false);
 mongoose.connect(uri)
   .then(() => {
     console.log('Connected to MongoDB');
-    app.listen(3001, () => {  // Changed port to 3001 to avoid conflict
-      console.log(`Node API app is running on port 3001`);
+    app.listen(3000, () => {  // Changed port to 3001 to avoid conflict
+      console.log(`Node API app is running on port 3000`);
     });
   })
   .catch((error) => {
