@@ -138,11 +138,11 @@ const UpdateEmployeeById = () => {
     });
 
     try {
-      await axios.put(`https://nodejs-crud-pdnl.onrender.com/employees/${employeeId}`, updatedFields);
+      await axios.put(`https://mern-crud-app-8i8f.onrender.com/employees/${employeeId}`, updatedFields);
       alert('Employee data updated successfully');
 
       // Fetch the updated employee data after successful update
-      const response = await axios.get(`https://nodejs-crud-pdnl.onrender.com/employees/${employeeId}`);
+      const response = await axios.get(`https://mern-crud-app-8i8f.onrender.com/employees/${employeeId}`);
       setUpdatedData(response.data); // Update state with the updated data
     } catch (error) {
       console.error('Error updating employee:', error);

@@ -10,7 +10,7 @@ const GetPage = () => {
 
   const fetchEmployees = async () => {
     try {
-      const response = await axios.get('https://nodejs-crud-pdnl.onrender.com/get');
+      const response = await axios.get('https://mern-crud-app-8i8f.onrender.com/get');
       setEmployees(response.data); // Update state with fetched employees
       console.log(response.data);
     } catch (error) {
