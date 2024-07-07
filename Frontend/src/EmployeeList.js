@@ -45,6 +45,7 @@ const EmployeeList = () => {
         department_name: '',
         sallery: ''
       });
+      console.log(setNewEmployee);
     } catch (error) {
       console.error('Error adding employee:', error);
     }
