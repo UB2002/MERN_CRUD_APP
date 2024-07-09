@@ -7,7 +7,7 @@ const EmployeeList = () => {
   const [employees, setEmployees] = useState([]);
   const [newEmployee, setNewEmployee] = useState({
     employ_id: '',
-    name: '',
+    name: '',  
     department_id: '',
     department_name: '',
     sallery: ''
