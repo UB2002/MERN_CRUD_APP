@@ -35,8 +35,9 @@ const GetPage = () => {
           employees.map(employee => (
             <div key={employee._id} className="card">
               <h3>{employee.name}</h3>
+              <p>_id : {employee._id}</p>
               <p>Department: {employee.department_name}</p>
-              <p>Salary: {employee.salary}</p>
+              <p>Salary: {employee.sallery}</p>
             </div>
           ))
         ) : (
