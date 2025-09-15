@@ -4,7 +4,7 @@ const cors = require('cors');  // Uncomment the import statement
 const Employee = require('./EmployeModel');
 
 const app = express();
-const uri = 'mongodb+srv://udaybhaskarmathangi:mX0W7b1UMwwUP6Ph@ub2002.carusdb.mongodb.net/Node-API?retryWrites=true&w=majority';
+const uri = ' ';
 
 // Enable CORS with specific settings
 app.use(cors({
